@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "clash display";
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+#lhs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#rhs {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(158deg, rgba(233, 119, 143, 0.63) -12.08%, rgba(239, 212, 193, 0.35) 99.6%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagetag {
+    height: 400px;
+    width: 400px;
+}
+
+#ellipse1 {
+    width: 387.644px;
+    height: 402.245px;
+    transform: rotate(-8.554deg);
+    flex-shrink: 0;
+    border-radius: 402.245px;
+    opacity: 0.5;
+    background: conic-gradient(from 180deg at 50% 50%, #FFC107 50.017388463020325deg, #6700FF 129.55134987831116deg, rgba(97, 47, 171, 0.00) 226.05700492858887deg, #6700FF 269.28977251052856deg);
+    filter: blur(100px);
+    position: absolute;
+    top:-10px;
+    right: 50%;
+
+}
+
+#ellipse2 {
+    width: 498.074px;
+    height: 402.245px;
+    transform: rotate(173.673deg);
+    flex-shrink: 0;
+    border-radius: 498.074px;
+    opacity: 0.5;
+    background: conic-gradient(from 180deg at 50% 50%, #FFC107 50.017388463020325deg, #6700FF 129.55134987831116deg, rgba(97, 47, 171, 0.00) 226.05700492858887deg, #6700FF 269.28977251052856deg);
+    filter: blur(100px);
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+}
+
+.welcometext {
+    margin-top: 0px;
+    color: #000;
+    text-align: center;
+    font-family: Clash Display;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.welcometext2 {
+    color: #000;
+    text-align: center;
+    font-family: Clash Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.backtext {
+    color: #FF4C72;
+    font-family: Clash Display;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.signup {
+    border-radius: 21px;
+    background: #F6AFBE;
+    margin-left: 70px;
+    border: none !important;
+}
+
+.signin {
+    width: 214px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 17px;
+    background: #FFF;
+    border: none !important;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.mainbutton {
+    border-radius: 21px;
+    background: #F6AFBE;
+    width: 420px;
+    height: 60px;
+    border: none !important;
+}
+
+.container {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.nameok {
+    color: #000;
+    font-family: Clash Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.namekajagah {
+    border-radius: 21px;
+    border: 3px solid #E9778F;
+    opacity: 0.3;
+    background: #D9D9D9;
+    width: 420px;
+    height: 50px;
+    flex-shrink: 0;
+    padding: 5px;
+    color: #000 !important; 
+}
+
+.passwok {
+    color: #000;
+    font-family: Clash Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.passwkajagah {
+    border-radius: 21px;
+    border: 3px solid #E9778F;
+    opacity: 0.3;
+    background: #D9D9D9;
+    width: 420px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.buttonsc {
+    border-radius: 21px;
+    background: #F5AFBD;
+    width: 260px;
+    height: 50px;
+    flex-shrink: 0;
+    border: none;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.continue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: #000;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hrline1 {
+    width: 87px;
+    height: 1px;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+.hrline2 {
+    width: 87px;
+    height: 1px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.socials{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google{
+    padding-right: 20px;
+    height: 40px;
+}
+
+.facebook{
+    padding-right: 20px;
+    height: 35px;
+}
+
+.apple{
+    padding-right: 20px;
+    padding-bottom: 5px;
+    height: 42px;
+}
+
+/* .socials img {
+    padding-right: 20px;
+} */
